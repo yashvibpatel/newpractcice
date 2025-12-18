@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Firebase Workspace Demo</title>
+</head>
+<body>
+
+  <h2>Firebase Workspace HTML</h2>
+  <input id="name" placeholder="Enter name">
+  <button onclick="show()">Submit</button>
+  <p id="output"></p>
+
+  <script>
+    function show() {
+      let name = document.getElementById("name").value;
+      document.getElementById("output").innerText =
+      "Hello " + name + ", running HTML in Firebase Workspace!";
+    }
+  </script>
+
+</body>
+</html>
